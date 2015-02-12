@@ -5,7 +5,7 @@
 <!--- Team Bliss Jenkins Roomservice -->
 <!-- Shau Stuff -->
   <project name="TeamBliss-Devices/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="lp5.0" />
-  <project name="android_kernel_moto_shamu" path="kernel/moto/shamu" remote="TeamBliss-Devices" revision="lp5.0" />  
+  <project name="android_kernel_moto_shamu" path="kernel/moto/shamu" remote="lsd" revision="lollipop" />  
 
 <!-- all g2 variant common repos -->
   <project name="android_device_lge_g2-common" path="device/lge/g2-common" remote="TeamBliss-Devices" revision="lp5.0" />
