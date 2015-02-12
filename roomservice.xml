@@ -1,0 +1,40 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+   <remote  name="github"
+            fetch="https://github.com/" />
+        
+
+<!--- Team Bliss Jenkins Roomservice -->
+<!-- Shau Stuff -->
+  <project name="TeamBliss-Devices/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="lp5.0" />
+  <project name="android_kernel_moto_shamu" path="kernel/moto/shamu" remote="TeamBliss-Devices" revision="lp5.0" />  
+
+<!-- all g2 variant common repos -->
+  <project name="android_device_lge_g2-common" path="device/lge/g2-common" remote="TeamBliss-Devices" revision="lp5.0" />
+  <project name="G2_render_kernel" path="kernel/lge/msm8974" remote="TeamBliss-Devices" revision="lp5.0" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-12.0" />
+
+<!-- vs980 -->
+  <project name="TeamBliss-Devices/android_device_lge_vs980" path="device/lge/vs980" remote="github" revision="lp5.0" />
+<!-- d800 -->
+  <project name="TeamBliss-Devices/android_device_lge_d800" path="device/lge/d800" remote="github" revision="lp5.0" />
+
+<!-- d801 -->
+  <project name="TeamBliss-Devices/android_device_lge_d801" path="device/lge/d801" remote="github" revision="lp5.0" />
+
+<!-- d802 -->
+  <project name="TeamBliss-Devices/android_device_lge_d802" path="device/lge/d802" remote="github" revision="lp5.0" />
+
+<!-- d803 -->
+  <project name="TeamBliss-Devices/android_device_lge_d803" path="device/lge/d803" remote="github" revision="lp5.0" />
+
+<!-- ls980 -->
+  <project name="TeamBliss-Devices/android_device_lge_ls980" path="device/lge/ls980" remote="github" revision="lp5.0" />
+
+<!-- Manta -->
+  <project name="CyanogenMod/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="cm-12.0" />
+  <project name="CyanogenMod/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="cm-12.0" />
+
+</manifest>
