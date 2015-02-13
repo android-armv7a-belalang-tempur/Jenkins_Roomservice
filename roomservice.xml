@@ -30,7 +30,7 @@
   <project name="TeamBliss-Devices/android_device_lge_ls980" path="device/lge/ls980" remote="github" revision="lp5.0" />
 
 <!-- Manta -->
-  <project name="CyanogenMod/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="cm-12.0" />
+  <project name="TeamBliss-Devices/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="lp5.0" />
   <project name="CyanogenMod/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="cm-12.0" />
 
 </manifest>
