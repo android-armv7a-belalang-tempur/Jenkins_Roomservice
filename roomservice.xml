@@ -31,7 +31,7 @@
 
 <!-- Manta -->
   <project name="TeamBliss-Devices/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="lp5.0" />
-  <project name="CyanogenMod/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="cm-12.0" />
+  <project name="Khaon/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="khaon-new" />
 
 <!-- i9300 -->
  <project name="ArchiDroid/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-12.0" />
