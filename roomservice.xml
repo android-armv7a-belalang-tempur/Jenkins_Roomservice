@@ -58,6 +58,10 @@
   <!-- vs985 -->
   <project name="TeamBliss-Devices/android_device_lge_vs985" path="device/lge/vs985" remote="github" revision="lp5.0" />
   <project name="android_device_lge_g3-common" path="device/lge/g3-common" remote="TeamBliss-Devices" revision="lp5.0" />
-  <project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="cm" revision="cm-12.0" />      
+  <project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="cm" revision="cm-12.0" />   
+  
+  <!-- victara -->
+  <project name="TeamBliss-Devices/android_device_motorola_victara" path="device/motorola/victara" remote="github" revision="lp5.0" />
+  <project name="android_kernel_motorola_msm8974" path="kernel/motorola/victara" remote="TeamBliss-Devices" revision="lp5.0" />
  
 </manifest>
