@@ -44,5 +44,11 @@
   <project name="android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="TeamBliss-Devices" revision="lp5.0" />
   <project name="android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="TeamBliss-Devices" revision="lp5.0" />
   <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="TeamBliss-Devices" revision="lp5.0" />
+  
+  <!-- m8 -->
+  <project name="TeamBliss-Devices/android_device_htc_m8" path="device/htc/m8" remote="github" revision="lp5.0" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-12.0" />
+  <project name="android_hardware_qcom_fm" path="hardware/qcom/fm" remote="cm" revision="cm-12.0" />
+  <project name="Buckmarble/Elite_M8" path="kernel/htc/msm8974" remote="github" revision="cm-12.0" />  
  
 </manifest>
