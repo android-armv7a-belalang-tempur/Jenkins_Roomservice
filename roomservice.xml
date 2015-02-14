@@ -62,6 +62,6 @@
   
   <!-- victara -->
   <project name="TeamBliss-Devices/android_device_motorola_victara" path="device/motorola/victara" remote="github" revision="lp5.0" />
-  <project name="android_kernel_motorola_msm8974" path="kernel/motorola/victara" remote="TeamBliss-Devices" revision="lp5.0" />
+  <project name="android_kernel_motorola_msm8974" path="kernel/motorola/msm8974" remote="TeamBliss-Devices" revision="lp5.0" />
  
 </manifest>
