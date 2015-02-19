@@ -4,58 +4,9 @@
 
 <!--- Team Bliss Jenkins Roomservice -->
 <!-- Shau Stuff -->
-  <project name="TeamBliss-Devices/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="lp5.0" />
-  <project name="android_kernel_moto_shamu" path="kernel/moto/shamu" remote="lsd" revision="lollipop" />  
-
-<!-- all g2 variant common repos -->
-  <project name="android_device_lge_g2-common" path="device/lge/g2-common" remote="TeamBliss-Devices" revision="lp5.0" />
-  <project name="G2_render_kernel" path="kernel/lge/msm8974" remote="TeamBliss-Devices" revision="lp5.0" />
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-12.0" />
-
-<!-- vs980 -->
-  <project name="TeamBliss-Devices/android_device_lge_vs980" path="device/lge/vs980" remote="github" revision="lp5.0" />
-<!-- d800 -->
-  <project name="TeamBliss-Devices/android_device_lge_d800" path="device/lge/d800" remote="github" revision="lp5.0" />
-
-<!-- d801 -->
-  <project name="TeamBliss-Devices/android_device_lge_d801" path="device/lge/d801" remote="github" revision="lp5.0" />
-
-<!-- d802 -->
-  <project name="TeamBliss-Devices/android_device_lge_d802" path="device/lge/d802" remote="github" revision="lp5.0" />
-
-<!-- d803 -->
-  <project name="TeamBliss-Devices/android_device_lge_d803" path="device/lge/d803" remote="github" revision="lp5.0" />
-
-<!-- ls980 -->
-  <project name="TeamBliss-Devices/android_device_lge_ls980" path="device/lge/ls980" remote="github" revision="lp5.0" />
-
-<!-- Manta -->
-  <project name="TeamBliss-Devices/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="lp5.0" />
-  <project name="Khaon/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="khaon-new" />
-
 <!-- i9300 -->
  <project name="ArchiDroid/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-12.0" />
  <project name="TeamBliss-Devices/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="lp5.0" />
  <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="TeamBliss-Devices" revision="lp5.0" />
- 
- <!-- hlte -->
-  <project name="TeamBliss-Devices/android_device_samsung_hlte" path="device/samsung/hlte" remote="github" revision="lp5.0" />
-  <project name="android_device_samsung_hlte-common" path="device/samsung/hlte-common" remote="TeamBliss-Devices" revision="lp5.0" />
-  <project name="android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="TeamBliss-Devices" revision="lp5.0" />
-  <project name="android_device_samsung_msm8974-common" path="device/samsung/msm8974-common" remote="TeamBliss-Devices" revision="lp5.0" />
-  <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="TeamBliss-Devices" revision="lp5.0" />
-   
-  <!-- flo -->
-  <project name="TeamBliss-Devices/android_device_asus_flo" path="device/asus/flo" remote="github" revision="lp5.0" />
-  <project name="android_kernel_google_msm" path="kernel/google/msm" remote="TeamBliss-Devices" revision="lp5.0" />
-  
-  <!-- vs985 -->
-  <project name="TeamBliss-Devices/android_device_lge_vs985" path="device/lge/vs985" remote="github" revision="lp5.0" />
-  <project name="android_device_lge_g3-common" path="device/lge/g3-common" remote="TeamBliss-Devices" revision="lp5.0" />
-  <project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="cm" revision="cm-12.0" />   
-  
-  <!-- victara -->
-  <project name="TeamBliss-Devices/android_device_motorola_victara" path="device/motorola/victara" remote="github" revision="lp5.0" />
-  <project name="android_kernel_motorola_msm8974" path="kernel/motorola/msm8974" remote="TeamBliss-Devices" revision="lp5.0" />
  
 </manifest>
