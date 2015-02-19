@@ -5,8 +5,8 @@
 <!--- Team Bliss Jenkins Roomservice -->
 <!-- Shau Stuff -->
 <!-- i9300 -->
- <project name="ArchiDroid/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-12.0" />
- <project name="TeamBliss-Devices/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="lp5.0" />
- <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="TeamBliss-Devices" revision="lp5.0" />
+ <project name="bauner/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-12.0-master" />
+ <project name="android-armv7a-belalang-tempur/cm-android_device_samsung_n7000" path="device/samsung/n7000" remote="github" revision="cm-12" />
+ <project name="bauner/cm-android_device_samsung_galaxys2-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-12" />
  
 </manifest>
