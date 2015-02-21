@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
+	<!-- Replaced projects -->
+		
 
-<!--- Team Bliss Jenkins Roomservice -->
-<!-- Shau Stuff -->
-<!-- i9300 -->
- <project name="bauner/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-12.0-master" />
- <project name="android-armv7a-belalang-tempur/cm-android_device_samsung_n7000" path="device/samsung/n7000" remote="github" revision="cm-12" />
- <project name="bauner/cm-android_device_samsung_galaxys2-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-12" />
+	<!-- /Replaced projects -->
+
+	<!-- Devices -->
+		<!-- n7000 -->
+		
+			
+			 <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="gh" revision="cm-12.0" />
+			 <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="gh" revision="cm-12.0" />
+			 <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="gh" revision="cm-12.0" />
+			 <project path="kernel/samsung/smdk4412" name="bauner/android_kernel_samsung_smdk4412" remote="gh" revision="cm-12.0-master" />
+    <project path="device/samsung/n7000" name="android-armv7a-belalang-tempur/cm-android_device_samsung_n7000" remote="gh" revision="cm-12" />
+    <project path="device/samsung/galaxys2-common" name="bauner/cm-android_device_samsung_galaxys2-common" remote="gh" revision="cm-12" />
+    <project path="device/samsung/smdk4412-common" name="ErcOneMOD/android_kernel_samsung_smdk4412" remote="gh" revision="cm-12" />
  
+
+		<!-- /n7000 -->
+	<!-- /Devices -->
 </manifest>
